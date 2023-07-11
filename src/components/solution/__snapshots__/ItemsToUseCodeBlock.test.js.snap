@@ -1,0 +1,1299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the code block displays when an item is not part of the solution 1`] = `
+<div>
+  <div
+    className="flex justify-between mt-4"
+  >
+    <input
+      className="btnReset"
+      onClick={[Function]}
+      type="button"
+      value="Reset"
+    />
+    <input
+      className="btnBlue"
+      onClick={[Function]}
+      type="button"
+      value="Step"
+    />
+  </div>
+  <div
+    className="py-2"
+  >
+    <pre
+      style={
+        Object {
+          "background": "#f8f8ff",
+          "color": "#000",
+          "display": "flex",
+          "overflowX": "auto",
+          "padding": "0.5em",
+        }
+      }
+    >
+      <code
+        className="language-javascript"
+        style={
+          Object {
+            "whiteSpace": "pre",
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            1
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#408080",
+                "fontStyle": "italic",
+              }
+            }
+          >
+            // items: array of item objects. An item has a value and weight property
+          </span>
+          <span
+            style={Object {}}
+          >
+            
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            2
+          </span>
+          <span
+            style={Object {}}
+          />
+          <span
+            style={
+              Object {
+                "color": "#954121",
+              }
+            }
+          >
+            let
+          </span>
+          <span
+            style={Object {}}
+          >
+             solution = []; 
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            3
+          </span>
+          <span
+            style={Object {}}
+          />
+          <span
+            style={
+              Object {
+                "color": "#954121",
+              }
+            }
+          >
+            let
+          </span>
+          <span
+            style={Object {}}
+          >
+             capacity = knapsack.capacity;
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            4
+          </span>
+          <span
+            style={Object {}}
+          />
+          <span
+            style={
+              Object {
+                "color": "#954121",
+              }
+            }
+          >
+            for
+          </span>
+          <span
+            style={Object {}}
+          >
+             (
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#954121",
+              }
+            }
+          >
+            let
+          </span>
+          <span
+            style={Object {}}
+          >
+             i = items.length; i &gt; 
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#40a070",
+              }
+            }
+          >
+            0
+          </span>
+          <span
+            style={Object {}}
+          >
+            ; i--) {
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            5
+          </span>
+          <span
+            style={Object {}}
+          >
+              
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#408080",
+                "fontStyle": "italic",
+              }
+            }
+          >
+            // i: index (2)
+          </span>
+          <span
+            style={Object {}}
+          >
+            
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            6
+          </span>
+          <span
+            style={Object {}}
+          >
+              
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#954121",
+              }
+            }
+          >
+            if
+          </span>
+          <span
+            style={Object {}}
+          >
+             (T[i][capacity] != Table[i-
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#40a070",
+              }
+            }
+          >
+            1
+          </span>
+          <span
+            style={Object {}}
+          >
+            ][capacity]) { 
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#408080",
+                "fontStyle": "italic",
+              }
+            }
+          >
+            // T[2][2] != T[1][2]
+          </span>
+          <span
+            style={Object {}}
+          >
+            
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            7
+          </span>
+          <span
+            style={Object {}}
+          >
+                
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#408080",
+                "fontStyle": "italic",
+              }
+            }
+          >
+            //item is part of the solution
+          </span>
+          <span
+            style={Object {}}
+          >
+            
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            8
+          </span>
+              solution.push(item);
+
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            9
+          </span>
+          <span
+            style={Object {}}
+          >
+                capacity = capacity - items[i-
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#40a070",
+              }
+            }
+          >
+            1
+          </span>
+          <span
+            style={Object {}}
+          >
+            ].weight;  
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            10
+          </span>
+          <span
+            style={Object {}}
+          >
+              }
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#954121",
+              }
+            }
+          >
+            else
+          </span>
+          <span
+            style={Object {}}
+          >
+             {
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "backgroundColor": "#BEF264",
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            11
+          </span>
+          <span
+            style={Object {}}
+          >
+                
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#408080",
+                "fontStyle": "italic",
+              }
+            }
+          >
+            // no - op
+          </span>
+          <span
+            style={Object {}}
+          >
+            
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            12
+          </span>
+            }
+
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            13
+          </span>
+          }
+        </span>
+      </code>
+    </pre>
+  </div>
+  <div
+    className="explanation"
+  >
+    <p>
+      It is now time to find the items that fit in the knapsack. This step checks if each item fits in the knapsack, starting with the last item. It starts there because that item's last cell contains the maximum value of the knapsack.
+    </p>
+    <p>
+      Click the 
+      <span
+        className="italic"
+      >
+        Step
+      </span>
+       button to find the items. A green cell means the item fits in the knapsack for the given capacity. A grey cell means the item did  not fit.
+    </p>
+    <p>
+      For each item, the algorithm checks if the current cell matches the previous cell's value. If it does NOT match, it means the item is part of the solution. Why? In step 1 of the algorithm the previous cell's value was copied when:
+    </p>
+    <ul
+      className="list-disc ml-8"
+    >
+      <li>
+        the item's weight was greater than the knapsack's capacity, or
+      </li>
+      <li>
+        the previous cell's value is greater than the item's value plus the value at any remaining capacity 
+      </li>
+    </ul>
+    <p>
+      A different value means a new, greater value was calculated for the capacity. So, the item is part of the solution.
+    </p>
+    <p>
+      If the item is part of the solution, then the capacity is set to the current capacity minus this item's weight. Why? The item may not take up the entire knapsack's capacity.  One or more items may fit in the left-over capacity. So, the next item uses the left-over capacity to see if it fits.
+    </p>
+    <p>
+      Note: the above code snippet uses an else statement to show the case when the cell values match. The else block is here for demonstration purposes. Omit it in an actual implementation.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`the code block displays when an item is part of the solution 1`] = `
+<div>
+  <div
+    className="flex justify-between mt-4"
+  >
+    <input
+      className="btnReset"
+      onClick={[Function]}
+      type="button"
+      value="Reset"
+    />
+    <input
+      className="btnBlue"
+      onClick={[Function]}
+      type="button"
+      value="Step"
+    />
+  </div>
+  <div
+    className="py-2"
+  >
+    <pre
+      style={
+        Object {
+          "background": "#f8f8ff",
+          "color": "#000",
+          "display": "flex",
+          "overflowX": "auto",
+          "padding": "0.5em",
+        }
+      }
+    >
+      <code
+        className="language-javascript"
+        style={
+          Object {
+            "whiteSpace": "pre",
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            1
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#408080",
+                "fontStyle": "italic",
+              }
+            }
+          >
+            // items: array of item objects. An item has a value and weight property
+          </span>
+          <span
+            style={Object {}}
+          >
+            
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            2
+          </span>
+          <span
+            style={Object {}}
+          />
+          <span
+            style={
+              Object {
+                "color": "#954121",
+              }
+            }
+          >
+            let
+          </span>
+          <span
+            style={Object {}}
+          >
+             solution = []; 
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            3
+          </span>
+          <span
+            style={Object {}}
+          />
+          <span
+            style={
+              Object {
+                "color": "#954121",
+              }
+            }
+          >
+            let
+          </span>
+          <span
+            style={Object {}}
+          >
+             capacity = knapsack.capacity;
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            4
+          </span>
+          <span
+            style={Object {}}
+          />
+          <span
+            style={
+              Object {
+                "color": "#954121",
+              }
+            }
+          >
+            for
+          </span>
+          <span
+            style={Object {}}
+          >
+             (
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#954121",
+              }
+            }
+          >
+            let
+          </span>
+          <span
+            style={Object {}}
+          >
+             i = items.length; i &gt; 
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#40a070",
+              }
+            }
+          >
+            0
+          </span>
+          <span
+            style={Object {}}
+          >
+            ; i--) {
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            5
+          </span>
+          <span
+            style={Object {}}
+          >
+              
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#408080",
+                "fontStyle": "italic",
+              }
+            }
+          >
+            // i: index (3)
+          </span>
+          <span
+            style={Object {}}
+          >
+            
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            6
+          </span>
+          <span
+            style={Object {}}
+          >
+              
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#954121",
+              }
+            }
+          >
+            if
+          </span>
+          <span
+            style={Object {}}
+          >
+             (T[i][capacity] != Table[i-
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#40a070",
+              }
+            }
+          >
+            1
+          </span>
+          <span
+            style={Object {}}
+          >
+            ][capacity]) { 
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#408080",
+                "fontStyle": "italic",
+              }
+            }
+          >
+            // T[3][5] != T[2][5]
+          </span>
+          <span
+            style={Object {}}
+          >
+            
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "backgroundColor": "#BEF264",
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            7
+          </span>
+          <span
+            style={Object {}}
+          >
+                
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#408080",
+                "fontStyle": "italic",
+              }
+            }
+          >
+            //item is part of the solution
+          </span>
+          <span
+            style={Object {}}
+          >
+            
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "backgroundColor": "#BEF264",
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            8
+          </span>
+              solution.push(item);
+
+        </span>
+        <span
+          style={
+            Object {
+              "backgroundColor": "#BEF264",
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            9
+          </span>
+          <span
+            style={Object {}}
+          >
+                capacity = capacity - items[i-
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#40a070",
+              }
+            }
+          >
+            1
+          </span>
+          <span
+            style={Object {}}
+          >
+            ].weight;  
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "backgroundColor": "#BEF264",
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            10
+          </span>
+          <span
+            style={Object {}}
+          >
+                
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#408080",
+                "fontStyle": "italic",
+              }
+            }
+          >
+            //capacity = 5 - 3 = 2
+          </span>
+          <span
+            style={Object {}}
+          >
+            
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            11
+          </span>
+          <span
+            style={Object {}}
+          >
+              }
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#954121",
+              }
+            }
+          >
+            else
+          </span>
+          <span
+            style={Object {}}
+          >
+             {
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            12
+          </span>
+          <span
+            style={Object {}}
+          >
+                
+          </span>
+          <span
+            style={
+              Object {
+                "color": "#408080",
+                "fontStyle": "italic",
+              }
+            }
+          >
+            // no - op
+          </span>
+          <span
+            style={Object {}}
+          >
+            
+
+          </span>
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            13
+          </span>
+            }
+
+        </span>
+        <span
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <span
+            className="comment linenumber react-syntax-highlighter-line-number"
+            style={
+              Object {
+                "display": "inline-block",
+                "minWidth": "2.25em",
+                "paddingRight": "1em",
+                "textAlign": "right",
+                "userSelect": "none",
+              }
+            }
+          >
+            14
+          </span>
+          }
+        </span>
+      </code>
+    </pre>
+  </div>
+  <div
+    className="explanation"
+  >
+    <p>
+      It is now time to find the items that fit in the knapsack. This step checks if each item fits in the knapsack, starting with the last item. It starts there because that item's last cell contains the maximum value of the knapsack.
+    </p>
+    <p>
+      Click the 
+      <span
+        className="italic"
+      >
+        Step
+      </span>
+       button to find the items. A green cell means the item fits in the knapsack for the given capacity. A grey cell means the item did  not fit.
+    </p>
+    <p>
+      For each item, the algorithm checks if the current cell matches the previous cell's value. If it does NOT match, it means the item is part of the solution. Why? In step 1 of the algorithm the previous cell's value was copied when:
+    </p>
+    <ul
+      className="list-disc ml-8"
+    >
+      <li>
+        the item's weight was greater than the knapsack's capacity, or
+      </li>
+      <li>
+        the previous cell's value is greater than the item's value plus the value at any remaining capacity 
+      </li>
+    </ul>
+    <p>
+      A different value means a new, greater value was calculated for the capacity. So, the item is part of the solution.
+    </p>
+    <p>
+      If the item is part of the solution, then the capacity is set to the current capacity minus this item's weight. Why? The item may not take up the entire knapsack's capacity.  One or more items may fit in the left-over capacity. So, the next item uses the left-over capacity to see if it fits.
+    </p>
+    <p>
+      Note: the above code snippet uses an else statement to show the case when the cell values match. The else block is here for demonstration purposes. Omit it in an actual implementation.
+    </p>
+  </div>
+</div>
+`;

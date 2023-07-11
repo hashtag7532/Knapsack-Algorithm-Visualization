@@ -1,0 +1,96 @@
+
+/* This is needed to match the font for my navbar logo, It is from my website which uses bootstrap, and this is the font it uses*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@tailwind components;
+
+
+@layer components {
+
+  .muted {
+    @apply text-gray-400;
+  }
+
+  .highlighted {
+    @apply bg-lime-300;
+  }
+
+  .highlighted-muted {
+    @apply bg-gray-200;
+  }
+
+  .highlighted-contributor {
+    @apply bg-lime-100;
+  }
+
+  .title {
+    @apply text-center text-2xl mb-6
+  }
+  .cell {
+    @apply border-collapse border px-4 py-3 text-center text-sm md:text-base;
+  }
+
+  .header {
+    @apply cell bg-gray-100 sticky top-0 z-50;
+  }
+
+  .btn {
+    @apply py-2 px-4 font-semibold rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-opacity-75 disabled:opacity-50 disabled:cursor-not-allowed drop-shadow-md;
+  }
+
+  .btnBlue {
+    @apply btn bg-navbar-via hover:bg-hover focus:ring-navbar-from text-white;
+    
+  }
+
+  .btnReset {
+    @apply btn  bg-white hover:bg-hover hover:text-white focus:ring-navbar-from border border-navbar-via text-navbar-via;
+  }
+
+  .btnGreen {
+    @apply btn bg-green-500 hover:bg-green-600 focus:ring-green-300 text-white;
+  }
+
+
+  .label {
+    @apply block mb-3 font-bold text-left;
+  }
+
+  .errorMsg {
+    @apply text-red-500 my-2 md:text-base text-sm
+  }
+
+  .link {
+    @apply text-blue-500 visited:text-purple-600 hover:underline;
+  }
+
+  .explanation {
+    @apply mt-6 text-base space-y-4;
+  }
+
+  .logo  {
+    @apply mr-4 text-xl whitespace-nowrap text-left text-white py-[5px];
+  }
+  .navbar-font {
+    @apply inline-block tracking-normal font-normal font-header;
+    text-shadow: -1px -1px 0 rgb(0 0 0 / 10%);
+  }  
+  .navbar-link {
+    @apply navbar-font md:py-4 md:px-2 py-2 block text-white opacity-75;
+  }
+
+  .navbar-tipjar {
+    @apply opacity-100 md:mt-[1.25em] md:pb-4 md:px-2 block;
+  }
+  
+  .navbar-toggler-icon {
+    @apply w-[30px] h-[30px] align-middle bg-contain bg-transparent inline-block md:hidden;
+  }
+  .navbar-toggler {
+    @apply md:hidden py-1 px-3 text-lg leading-[1.25rem] bg-transparent border border-solid rounded border-white/10 text-white/75;
+  }
+
+  .table-instructions {
+    @apply text-xs text-center mb-1;
+  }
+}
